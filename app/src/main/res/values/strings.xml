@@ -16,6 +16,8 @@
     <string name="trip_forex_advance">Forex advance</string>
     <string name="create_trip">Create Trip</string>
     <string name="expense_category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="remarks">Remarks</string>
 
 
     <array name="currencies">
@@ -24,6 +26,17 @@
         <item>CNY</item>
         <item>USD</item>
         <item>HKD</item>
+    </array>
+
+    <array name="expense_category">
+        <item>Taxi Fare</item>
+        <item>Airport Taxi</item>
+        <item>Hotel Lodging - Rate</item>
+        <item>Hotel Lodging - Taxes</item>
+        <item>Telephone</item>
+        <item>Meal Exp</item>
+        <item>Laundry</item>
+        <item>Others</item>
     </array>
 
 

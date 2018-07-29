@@ -42,7 +42,7 @@
             android:layout_weight="1">
 
             <EditText
-                android:id="@+id/tv_trip_start_date"
+                android:id="@+id/tv_expense_date"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -60,11 +60,11 @@
             android:layout_marginTop="10dp">
 
             <EditText
-                android:id="@+id/add_trip_pc_code"
+                android:id="@+id/tv_expense_amount"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:hint="@string/trip_enter_pc_code" />
+                android:hint="@string/amount" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
@@ -79,7 +79,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:ems="10"
-                android:hint="@string/trip_enter_pc_code" android:inputType="textMultiLine"/>
+                android:hint="@string/remarks" android:inputType="textMultiLine" android:gravity="top"/>
         </android.support.design.widget.TextInputLayout>
 
 

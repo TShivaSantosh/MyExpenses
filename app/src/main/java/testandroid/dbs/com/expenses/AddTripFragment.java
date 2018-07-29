@@ -57,18 +57,6 @@ public class AddTripFragment extends BaseFragment {
         view =  inflater.inflate(R.layout.fragment_add_trip, container, false);
         ButterKnife.bind(this, view);
 
-        // set calendar date and update editDate
-        date = new DatePickerDialog.OnDateSetListener() {
-            @Override
-            public void onDateSet(DatePicker view, int year, int monthOfYear,
-                                  int dayOfMonth) {
-                myCalendar.set(Calendar.YEAR, year);
-                myCalendar.set(Calendar.MONTH, monthOfYear);
-                myCalendar.set(Calendar.DAY_OF_MONTH, dayOfMonth);
-                updateDate();
-            }
-
-        };
 
         tv_start_date.setOnClickListener(new View.OnClickListener() {
             @Override
