@@ -5,4 +5,39 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_password">Enter Password</string>
+    <string name="hint_dob">Select DON</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="trip_name">Trip Name</string>
+    <string name="trip_select_date">Select Date</string>
+    <string name="trip_enter_pc_code">PC Code</string>
+    <string name="is_internatinal_trip">Is Internatinal trip?</string>
+    <string name="trip_currency">Currency</string>
+    <string name="trip_forex_advance">Forex advance</string>
+    <string name="create_trip">Create Trip</string>
+    <string name="expense_category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="remarks">Remarks</string>
+
+
+    <array name="currencies">
+        <item>SGB</item>
+        <item>INR</item>
+        <item>CNY</item>
+        <item>USD</item>
+        <item>HKD</item>
+    </array>
+
+    <array name="expense_category">
+        <item>Taxi Fare</item>
+        <item>Airport Taxi</item>
+        <item>Hotel Lodging - Rate</item>
+        <item>Hotel Lodging - Taxes</item>
+        <item>Telephone</item>
+        <item>Meal Exp</item>
+        <item>Laundry</item>
+        <item>Others</item>
+    </array>
+
+
 </resources>
